@@ -43,3 +43,31 @@ h3 span {
   font-size: 10px;
   margin-top: 1px;
 }
+
+.evidenziatore {
+  background: yellow;
+}
+
+.lista {
+  padding-left: 15px;
+}
+
+.tabella {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+.testa {
+  background:lightskyblue;
+}
+
+.corpo {
+   background: paleturquoise;
+}
+
+.piedi {
+  background: paleturquoise;
+}
