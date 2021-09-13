@@ -1,3 +1,8 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+
 .container {
   width: 70%;
   margin: 0 auto;
@@ -6,14 +11,13 @@
 .up {
   height: 90px;
   background-color: steelblue;
+  background-image: url("../img/pattern.png");
+  background-size: 350px;
 }
 
-.pattern {
-height: 90px;
-background-repeat: initial;
-}
 
 .logo {
+  margin-top: 30px;
   width: 18%;
   margin-bottom: 10px;
 }
@@ -58,16 +62,21 @@ h3 span {
 
 th {
   text-align: left;
+  color: white;
 }
 
 .testa {
-  background:lightskyblue;
+  background: rgb(32, 169, 229);
 }
 
 .corpo {
-   background: paleturquoise;
+   background: rgb(177, 229, 242);
 }
 
 .piedi {
-  background: paleturquoise;
+  background: rgb(177, 229, 242) ;
+}
+
+.suggerimenti {
+  margin-bottom: 7px;
 }
