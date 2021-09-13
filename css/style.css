@@ -4,11 +4,42 @@
 }
 
 .up {
-  height: 60px;
+  height: 90px;
   background-color: steelblue;
 }
 
 .pattern {
-height: 60px;
-background-image: ;
+height: 90px;
+background-repeat: initial;
+}
+
+.logo {
+  width: 18%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 1px;
+}
+
+h3 {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ color: darkgrey;
+}
+
+h3 span {
+  color: deepskyblue;
+}
+
+.data{
+
+  margin-top: 0px;
+  color: darkgrey;
+}
+
+.photo {
+  font-size: 10px;
+  margin-top: 1px;
 }
