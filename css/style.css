@@ -1,18 +1,29 @@
+/* font e classe evidenziatore */
+
 body {
   font-family: 'Roboto Slab', serif;
 }
 
+.evidenziatore {
+  background: yellow;
+}
+
+/* contenitore */
 
 .container {
   width: 70%;
   margin: 0 auto;
 }
 
+/* stili header  */
+
 .up {
+  
   height: 90px;
   background-color: steelblue;
   background-image: url("../img/pattern.png");
   background-size: 350px;
+  
 }
 
 
@@ -43,21 +54,23 @@ h3 span {
   color: darkgrey;
 }
 
+/* descrizione foto  */
+
 .photo {
   font-size: 10px;
   margin-top: 1px;
 }
 
-.evidenziatore {
-  background: yellow;
-}
 
 .lista {
   padding-left: 15px;
 }
 
+/* tabella  */
+
 .tabella {
   width: 100%;
+  border-collapse: collapse;
 }
 
 th {
@@ -76,6 +89,8 @@ th {
 .piedi {
   background: rgb(177, 229, 242) ;
 }
+
+/* footer  */
 
 .suggerimenti {
   margin-bottom: 7px;
